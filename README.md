@@ -12,7 +12,7 @@ Primeiramente, você pode ir até o terminal e usar o comando:
 
 Se preferir, você pode fazer o download dos arquivos clicando em **Code** e em seguida **Download ZIP**. Salve o arquivo em sua estrutura de diretórios e descompacte-os dentro da pasta criada para realização destes tutoriais.
 
-![Baixando o ZIP do repositório]()
+![Baixando o ZIP do repositório](https://i.loli.net/2021/04/24/qaBs7xjXLlVmJUF.gif)
 
 Os procedimentos realizados netre tutorial seguirão a seguinte sistemática:
 
@@ -27,19 +27,19 @@ A criação de um projeto é a primeira etapa para iniciar nossos projetos dentr
 
 A primeira página desse assistente descreve as etapas de criação de um projeto. Leia com atenção os itens que estão destacados e clique em **Next**.
 
-![Tela inicial de criacao do projeto](https://i.loli.net/2021/04/23/OS9QAJget1iM8ln.gif)
+![Tela inicial de criacao do projeto](/Users/joaocarlos/Desktop/Screen Shot 2021-04-23 at 14.38.14.png)
 
 Agora nós entramos com a informação do diretório onde o projeto será criado. Aqui nós criaremos nosso projeto dentro do diretório **fpga** que se encontra nos arquivos do respositório. Nesse exemplo, chamaremos nosso projeto de `pipemult, que também será o nome da nossa módulo *top-level* dentro da hierarquia do projeto *(falaremos mais sobre isso depois)*.
 
 Notem que o último campo será preenchido automaticamente para você.
 
-![Diretório, Nome do Projeto e módulo Top-level (Gif)]()
+![Diretório, Nome do Projeto e módulo Top-level (Gif)](https://i.loli.net/2021/04/23/OS9QAJget1iM8ln.gif)
 
 Na tela seguinte, você deve escolher se deseja iniciar um projeto vazio, ou a partir de um modelo de projeto, caso você tenha baixado um projeto de exemplo ou estiver trabalhando com uma placa de desenvolvimento.
 
 Nesse último caso, um modelo de projeto pode ajudar uma vez que já traz todas as configurações relacionadas à pinagem de entrada e saída e demais especificações da placa de desenvolvimento. Porém, para o propósito desse tutorial, eu quero criar uma projeto vazio.
 
-![Tipo de Projeto]()
+![Tipo de Projeto](https://i.loli.net/2021/04/24/GtcNbwWJRM6o4m9.png)
 
 Agora você poderá adiconar arquivos ao seu projeto. 
 
@@ -47,7 +47,7 @@ No diretório `verilog`, dentro deste tutorial vocês vão encontrar os nossos a
 
 Para isso, clique nos três pontos para navegar até o diretório onde estão nossos arquivos.
 
-![Adicionar arquivos (Gif)]()
+![Adicionar arquivos (Gif)](https://i.loli.net/2021/04/24/LbuoYA4z1ITCB5t.gif)
 
 Na próxima página você deve selecionar o dispositivo FPGA que irá programar. Você pode selecionar a família do dispositivo e sua categoria. Você pode ainda filtrar por tipo de encapsulamento (*Package*), quantidade de pinos (*Pin count*), ou *Core speed grade*.
 
@@ -55,17 +55,17 @@ Na próxima página você deve selecionar o dispositivo FPGA que irá programar.
 
 Nesse tutorial, vamos selecionar o *chip* que compõe a plataforma de desenvolvimento [Terasic DE2-115](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=139&No=502). Na janela **Family, Device & Board Settings** escolha a família `Cyclone IV E` e o dispositivo `EP4CE115F29C7`, como mostrado a seguir e clique em **Next**.
 
-![Configurações de Família, Dispositivo e Placa (Gif)]()
+![Configurações de Família, Dispositivo e Placa (Gif)](https://i.loli.net/2021/04/24/xfmVHFIG9rRckKQ.gif)
 
 Na próxima página você pode escolher as ferramentas e configuração para a simulação, síntese a análise do projeto. Essas ferramentas podem ser adicionadas ou modificadas depois que seu projeto estiver criado.
 
 Por enquanto eu vamos permanecer com as configurações padrão da ferramenta e seguir adiante, clicando em **Next**. 
 
-![Configurações de ferramentas de EDA]()
+![Configurações de ferramentas de EDA](https://i.loli.net/2021/04/24/SRnYQsk59W1wTXl.png)
 
 A página final do assistente apresenta um resumo de todas as configurações definidas por você. Clique em **Finish** para criar seu projeto.
 
-![Projeto Criado]()
+![Projeto Criado (Gif)](https://i.loli.net/2021/04/24/Y2AibaCyGEqVvJn.gif)
 
 Como você pode ver, o único arquivo que você pode visualizar em seu projeto é aquele que adicionamos anteriormente (`ram.sv`). Entretanto, o Quartus Prime criou para você, dentro da pasta do projeto um arquivo `.qpf` (ou **Quartus Project File**), usado para abrir o projeto.
 
@@ -77,19 +77,23 @@ Além disso, o Quartus Prime cria também um arquivo `.qsf` (ou **Quartus Settin
 
 O nome do projeto é exibido na barra de título superior. O módulo *top-level* do projeto aparece na guia **Hierarchy**, da janela **Project Navigator**.
 
-![Aba Project Navigator (Gif)]()
+![Aba Project Navigator (Gif)](https://i.loli.net/2021/04/24/8DPETpLHytlIkS7.gif)
 
 Agora você está pronto para criar ou adicionar novos arquivos Verilog para este projeto, o que será abordado no próximo tutorial.
 
 Clique duas vezes no arquivo `ram.sv` para abri-lo no editor de texto do Quartus Prime. O arquivo é então aberto no editor de texto. Por enquanto, você não precisa se preocupar com o funcionamento desse código.
 
-![Abrindo o arquivo ram.sv (Gif)]()
+![Abrindo o arquivo ram.sv (Gif)](https://i.loli.net/2021/04/24/j2lrTukVJx7DEeH.gif)
 
 O editor de texto do Quartus Prime é um bom editor para códigos HDL. Ele possui numeração de linha, reconhecimento de sintaxe, além da possibilidade de inserir modelos de função HDL, TCL ou mega-funções nos arquivos através de modelos.
 
-Use o botão **Insert template** para inserir modelos de função nos arquivos de projeto. Explore as opções de modelo pois elas poderão ser úteis no futuro.
+Use o botão **Insert template** para inserir modelos de função nos arquivos de projeto. Explore as opções de modelo pois elas poderão ser úteis no futuro. Alguns exemplos interessantes de serem analisados:
 
-![Insert template (Gif)]()
+- Veriglo HDL --> Full Designs -> RAMs and ROMs
+- Veriglo HDL --> Full Designs -> State Machines
+- Veriglo HDL --> Constructs -> Sequential Statements
+
+![Insert template (Gif)](https://i.loli.net/2021/04/24/9Qb6WM8mOKBgrjf.gif)
 
 ## Resumo
 
