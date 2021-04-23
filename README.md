@@ -34,7 +34,7 @@ A primeira página desse assistente descreve as etapas de criação de um projet
 
 ![Tela inicial de criacao do projeto](/Users/joaocarlos/Desktop/Screen Shot 2021-04-23 at 14.38.14.png)
 
-Agora nós entramos com a informação do diretório onde o projeto será criado. Aqui nós criaremos nosso projeto dentro do diretório **fpga** que se encontra nos arquivos do respositório. Nesse exemplo, chamaremos nosso projeto de `pipemult, que também será o nome da nossa módulo *top-level* dentro da hierarquia do projeto *(falaremos mais sobre isso depois)*.
+Agora nós entramos com a informação do diretório onde o projeto será criado. Aqui nós criaremos nosso projeto dentro do diretório **fpga** que se encontra nos arquivos do respositório. Nesse exemplo, chamaremos nosso projeto de `pipemult`, que também será o nome da nossa módulo *top-level* dentro da hierarquia do projeto *(falaremos mais sobre isso depois)*.
 
 Notem que o último campo será preenchido automaticamente para você.
 
