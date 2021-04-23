@@ -1,4 +1,4 @@
-<img src="/Volumes/GoogleDrive/My Drive/ufrb/marcas-ufrb/marca-HORIZONTAL-UFRB-JPG.jpg" style="zoom: 33%;" />
+<img src="https://i.loli.net/2021/04/24/IJfWhy4qZLFmBrz.jpg" style="zoom: 33%;" />
 
 <div><center><strong>GCET231 - CIRCUITOS DIGITAIS II</strong></center></div>
 
