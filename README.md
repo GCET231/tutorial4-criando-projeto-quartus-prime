@@ -3,7 +3,7 @@
 <div align="center"><strong>GCET231 - CIRCUITOS DIGITAIS II</strong></div>
 
 
-## Criando Projeto no Quartus Prime Lite Edition
+## Criando um Projeto no Quartus Prime Lite Edition
 
 Nesse tutorial, você irá aprender a criar um projeto no Intel Quartus Prime.  Este tutorial é o primeiro de uma série de guias desenvolvidos como uma introdução ao desenvolvimento de projeto digital utilizando o Quartus Prime.
 
