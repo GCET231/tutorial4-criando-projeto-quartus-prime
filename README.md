@@ -1,6 +1,6 @@
 <img src="https://i.loli.net/2021/04/24/IJfWhy4qZLFmBrz.jpg" style="zoom: 33%;" />
 
-<div><center><strong>GCET231 - CIRCUITOS DIGITAIS II</strong></center></div>
+<div align="center"><strong>GCET231 - CIRCUITOS DIGITAIS II</strong></div>
 
 
 ## 1. Criando Projeto no Quartus Prime Lite Edition
