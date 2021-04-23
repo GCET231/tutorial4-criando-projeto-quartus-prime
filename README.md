@@ -3,9 +3,11 @@
 <div align="center"><strong>GCET231 - CIRCUITOS DIGITAIS II</strong></div>
 
 
-## 1. Criando Projeto no Quartus Prime Lite Edition
+## Criando Projeto no Quartus Prime Lite Edition
 
 Nesse tutorial, você irá aprender a criar um projeto no Intel Quartus Prime.  Este tutorial é o primeiro de uma série de guias desenvolvidos como uma introdução ao desenvolvimento de projeto digital utilizando o Quartus Prime.
+
+### Obtendo os arquivos
 
 Antes de começar, certifique-se de obter todos os arquivos deste repositório. Primeiramente, recomendo que você crie um diretório dentro da pasta da disciplina na qual você irá armazenar os arquivos deste e dos próximos tutoriais. 
 
@@ -24,7 +26,7 @@ Os procedimentos realizados netre tutorial seguirão a seguinte sistemática:
 - Primeiramente veremos como você pode usar o *New Project Wizard* do Quartus Prime para criar um novo projeto.
 - Em seguida, veremos quais são os principais elementos de customização do seu projeto.
 
-## 2. Assistente de Criação de Projetos
+### Assistente de Criação de Projetos
 
 Abra o Quartus Prime, se já não tiver aberto.
 
@@ -100,7 +102,7 @@ Use o botão **Insert template** para inserir modelos de função nos arquivos d
 
 ![Insert template (Gif)](https://i.loli.net/2021/04/24/9Qb6WM8mOKBgrjf.gif)
 
-## 3. Resumo
+## Resumo
 
 Nesse tutorial você aprendeu a:
 
@@ -112,7 +114,9 @@ No próximo tutorial você irá descobrir como completar o desenvolvimento e ger
 
 <a href="#top">Voltar para o início</a>
 
+---
 
+[Próximo tutorial]
 
 
 
