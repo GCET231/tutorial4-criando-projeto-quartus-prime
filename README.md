@@ -1,4 +1,4 @@
-<img src="https://i.loli.net/2021/04/24/IJfWhy4qZLFmBrz.jpg" style="zoom: 33%;" />
+<center><img src="https://i.loli.net/2021/04/24/IJfWhy4qZLFmBrz.jpg" width="600"/></center>
 
 # GCET 231 Tutorial 4: Criando um Projeto no Quartus Prime
 
